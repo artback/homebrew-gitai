@@ -15,12 +15,12 @@ cask "gitai" do
     on_intel do
       url "https://github.com/artback/gitai/releases/download/v#{version}/gitai_#{version}_darwin_x86_64.tar.gz",
         verified: "github.com/artback/gitai"
-      sha256 "e9062a8ab9c0a38543179207c216360eb12620622d16242791427d939a7992c0"
+      sha256 "8c39804c33c486339f147e10a905e9ac44e7771b5797cee1fc5b3514e3880d61"
     end
     on_arm do
       url "https://github.com/artback/gitai/releases/download/v#{version}/gitai_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/artback/gitai"
-      sha256 "ecfd08452d74be33bf27e2713873e850735259c6e1b5ecaddf17056e01e6ae60"
+      sha256 "dabf8421a01c5bcfd02cf2189185336bddb9f7ef5da5a8176f667584be0ce43e"
     end
   end
 
@@ -28,12 +28,12 @@ cask "gitai" do
     on_intel do
       url "https://github.com/artback/gitai/releases/download/v#{version}/gitai_#{version}_linux_x86_64.tar.gz",
         verified: "github.com/artback/gitai"
-      sha256 "92cd1b093520796616164b7439020d9476b214a56e8149f97478cd067daecf8f"
+      sha256 "ebc24e577030aae7d877d06cc282f42c6f8601582894c947eeded3c9fc7629eb"
     end
     on_arm do
       url "https://github.com/artback/gitai/releases/download/v#{version}/gitai_#{version}_linux_arm64.tar.gz",
         verified: "github.com/artback/gitai"
-      sha256 "21ae8c02eee96e2ed9836f337e824b696ccf9be94cda179ea027e407048f4e47"
+      sha256 "2117e102c591a34f99a24ae0c6c6a29da155344339e001dd007aca13d4ba3717"
     end
   end
 
