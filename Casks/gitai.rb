@@ -3,7 +3,7 @@ cask "gitai" do
   name "gitai"
   desc "AI-powered Git Assistant"
   homepage "https://github.com/artback/gitai"
-  version "0.10.0"
+  version "0.8.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "gitai" do
     on_intel do
       url "https://github.com/artback/gitai/releases/download/v#{version}/gitai_#{version}_darwin_x86_64.tar.gz",
         verified: "github.com/artback/gitai"
-      sha256 "d61ab164ac4c3eb8f1cc32718cb4476c9c6d34c279a5b7b78043cec00877fd49"
+      sha256 "7796b54f8ab6b3b8aa86106ce1749990088558d2bcb22b169f911ec8ca11dcc6"
     end
     on_arm do
       url "https://github.com/artback/gitai/releases/download/v#{version}/gitai_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/artback/gitai"
-      sha256 "562cba2d8b787300190b1ef36b9f819615398e7e8307d0e38639d4b5082cb9eb"
+      sha256 "d8a58ceaa7c55027d016bec1a7e1f46d9c3a120740653191571a50934147c3e1"
     end
   end
 
@@ -28,12 +28,12 @@ cask "gitai" do
     on_intel do
       url "https://github.com/artback/gitai/releases/download/v#{version}/gitai_#{version}_linux_x86_64.tar.gz",
         verified: "github.com/artback/gitai"
-      sha256 "3db1ca0fb696667139a13a08f694dc3b62fe11c40e0bff9e7e2c21e2e3a2c25f"
+      sha256 "08a3ade329f72fbf3b0a417d48f216b48902d5eea5803bfc707cb331ec738cd7"
     end
     on_arm do
       url "https://github.com/artback/gitai/releases/download/v#{version}/gitai_#{version}_linux_arm64.tar.gz",
         verified: "github.com/artback/gitai"
-      sha256 "971e23574957479fad508f547eb22a539f26906c757a601ca040cc3879dbae0f"
+      sha256 "83c90b18d24a92c1e9d8a451762f30b071a70c341d2539e75089e92621cfb1cc"
     end
   end
 
